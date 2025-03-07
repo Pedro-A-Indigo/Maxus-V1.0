@@ -217,6 +217,8 @@ figure {
 }
 
 .container.main-cta {
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
   flex-flow: column;
   justify-content: center;
   align-self: center;
