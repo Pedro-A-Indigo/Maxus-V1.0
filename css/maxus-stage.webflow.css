@@ -899,7 +899,7 @@ figure {
 
 .copyright {
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0;
   display: flex;
@@ -1867,7 +1867,7 @@ figure {
   color: var(--colors--primary-white-0-40);
   align-self: auto;
   margin-bottom: 0;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 300;
 }
 
@@ -1997,7 +1997,7 @@ figure {
   height: auto;
 }
 
-.image-2 {
+.logo {
   background-color: #0000;
 }
 
@@ -2058,10 +2058,12 @@ figure {
 }
 
 .footer-logo {
+  grid-column-gap: 72px;
+  grid-row-gap: 72px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 180px;
-  height: 90px;
+  height: auto;
 }
 
 .flex-block {
@@ -3065,6 +3067,7 @@ figure {
   backdrop-filter: blur(8px);
   border-radius: 8px;
   transition: transform .5s;
+  display: none;
   position: static;
   inset: auto -24% 0% auto;
 }
@@ -3205,9 +3208,11 @@ figure {
 .logo-gep {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
+  border-top: 1px solid var(--colors--primary-white-0-20);
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
   display: flex;
 }
 
@@ -4237,6 +4242,10 @@ figure {
 
   .menu-close {
     display: none;
+  }
+
+  .logo-gep {
+    flex-flow: column;
   }
 
   .about-text-left, .about-text-right {
