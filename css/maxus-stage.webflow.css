@@ -3047,7 +3047,7 @@ figure {
   display: flex;
 }
 
-.action-link.third {
+.action-link.last {
   border-right-style: none;
 }
 
@@ -4758,7 +4758,7 @@ figure {
     padding: 24px 0;
   }
 
-  .action-link.third {
+  .action-link.last {
     border-bottom-style: none;
     padding-bottom: 24px;
     padding-left: 0;
@@ -5431,15 +5431,7 @@ figure {
   place-self: end;
 }
 
-#w-node-_3058d37d-0882-6158-c7d9-1df53e3784c1-52e74d82 {
-  place-self: end start;
-}
-
-#w-node-b3108904-11aa-0021-6af3-091054cc5af8-52e74d82 {
-  place-self: end;
-}
-
-#w-node-_3b2b34f2-ac75-e623-1531-7616c387100d-52e74d82 {
+#w-node-_3058d37d-0882-6158-c7d9-1df53e3784c1-52e74d82, #w-node-_3b2b34f2-ac75-e623-1531-7616c387100d-52e74d82 {
   place-self: end start;
 }
 
